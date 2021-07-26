@@ -11,11 +11,12 @@ if first paramater is not a iterable then normal execution happens
 Example
 --------------------
 .. code:: python
+
     # example.py
     import threadmycode as multithreading
     import time
+    import random
     import signal
-
     # kill all tasks on ctrl-c
     # signal.signal(signal.SIGINT, multithreading.killall)
 
@@ -39,6 +40,7 @@ The output would look something like this:
 .. code:: bash
 
     $ python example.py
+    
     Hello 0 (sleeping for 3s)
     Hello 1 (sleeping for 3s)
     Hello 2 (sleeping for 3s)
