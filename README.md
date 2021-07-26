@@ -10,7 +10,7 @@ if first paramater is not a iterable then normal execution happens
 
 Example
 --------------------
-.. code:: python
+```python
 
     # example.py
     import threadmycode as multithreading
@@ -33,12 +33,12 @@ Example
     if __name__ == "__main__":
             multithreading.threadCount(5)
             hello(range(10))
-
+```
 
 The output would look something like this:
 
-.. code:: bash
 
+```python
     $ python example.py
     
     Hello 0 (sleeping for 3s)
@@ -61,7 +61,7 @@ The output would look something like this:
     Goodbye 7 (after for 3s)
     Goodbye 8 (after for 3s)
     Goodbye 9 (after for 3s)
-
+```
 Settings
 ========
 
@@ -70,8 +70,8 @@ The default maximum threads is equal to the # of CPU Cores.
 
 You can change the default maximum number of threads using:
 
-.. code:: python
+```python
 
     import threadmycode as multithreading
     multitasking.threadCount(10)
-
+```
