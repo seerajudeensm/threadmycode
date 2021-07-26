@@ -72,6 +72,6 @@ You can change the default maximum number of threads using:
 
 .. code:: python
 
-    import multithreading
+    import threadmycode as multithreading
     multitasking.threadCount(10)
 
