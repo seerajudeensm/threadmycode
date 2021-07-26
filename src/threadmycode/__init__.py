@@ -28,7 +28,7 @@ def threadCount(count):
 def threadit(func):
     global config
     def wrapper(*args,**kwargs):
-        if isinstance(args[0],Iterable):
+        if args and isinstance(args[0],Iterable):
             def proc():
                 return "Processed"
             threads = []
